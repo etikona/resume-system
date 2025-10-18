@@ -40,7 +40,7 @@ export interface Skill {
   id: string;
   name: string;
   category: string;
-  level: number;
+  level: number | string;
 }
 
 export interface Resume {
