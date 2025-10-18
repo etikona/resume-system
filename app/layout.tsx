@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 import { ResumeProvider } from "./contexts/ResumeContexts";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ResumeCraft - Build Professional Resumes",
+  title: "Resume Builder - Create Professional Resumes",
   description:
-    "Create beautiful, professional resumes with multiple templates and real-time preview",
+    "Build professional resumes with our modern templates. Easy to edit, live preview, and PDF export.",
 };
 
 export default function RootLayout({
@@ -20,7 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ResumeProvider>{children}</ResumeProvider>
+        <ResumeProvider>
+          <Navbar />
+          {children}
+        </ResumeProvider>
       </body>
     </html>
   );
