@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { ResumeProvider } from "./contexts/ResumeContexts";
+import { EcosystemProvider } from "./contexts/EcosystemContext";
+// import { EcosystemProvider } from "./contexts/EcosystemContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,8 +23,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ResumeProvider>
-          <Navbar />
-          {children}
+          <EcosystemProvider>
+            <Navbar />
+            {children}
+          </EcosystemProvider>
         </ResumeProvider>
       </body>
     </html>

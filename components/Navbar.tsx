@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { FileText, Menu, X, Home, Layers, Eye } from "lucide-react";
+import { FileText, Menu, X, Home, Layers, Eye, Network } from "lucide-react";
 
 export default function Navbar() {
   const router = useRouter();
@@ -12,6 +12,7 @@ export default function Navbar() {
 
   const navigation = [
     { name: "Home", href: "/", icon: Home },
+    { name: "Ecosystem", href: "/ecosystem", icon: Network },
     { name: "Templates", href: "/templates", icon: Layers },
     { name: "Resume Builder", href: "/resume", icon: FileText },
     { name: "Preview", href: "/preview", icon: Eye },
