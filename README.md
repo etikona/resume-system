@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Please use that image as banner.
+Resume Builder 🚀
 
-## Getting Started
+<div align="center">
+https://resume-system.vercel.app/resume.png
 
-First, run the development server:
+A modern, feature-rich resume builder that helps you create professional resumes in minutes
+🚀 Live Demo | 🐛 Report Bug | 💡 Request Feature
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</div>
+✨ Features
+🎨 Multiple Professional Templates
+Modern - Clean layout with bold sections and modern typography
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Classic - Traditional format with professional styling
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Minimal - Simple and clean with maximum readability
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Executive - Professional layout for senior positions
 
-## Learn More
+Creative - Modern design with creative elements
 
-To learn more about Next.js, take a look at the following resources:
+⚡ Smart Editing Experience
+🔴 Live Real-time Preview - See changes instantly as you type
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📝 Intuitive Forms - Easy-to-use form interface with validation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔄 Template Switching - Change templates anytime without losing data
 
-## Deploy on Vercel
+💾 Auto-save - Your progress is automatically saved locally
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🚀 Powerful Export Options
+📄 PDF Export - Download high-quality, print-ready PDF files
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🖨️ Print Directly - Browser print functionality for instant copies
+
+☁️ Cloud Ready - Resume data persists between sessions
+
+📊 Comprehensive Sections
+👤 Personal Information - Contact details and social links
+
+📝 Professional Summary - Compelling career overview
+
+💼 Work Experience - Detailed employment history
+
+🎓 Education - Academic background and achievements
+
+🛠️ Projects - Portfolio and project showcases
+
+⚡ Skills - Technical and professional competencies
+
+🛠️ Technology Stack
+Frontend Framework:
+
+https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js
+
+https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript
+
+https://img.shields.io/badge/React-18-61dafb?style=for-the-badge&logo=react
+
+Styling & UI:
+
+https://img.shields.io/badge/Tailwind_CSS-3.0-38b2ac?style=for-the-badge&logo=tailwind-css
+
+https://img.shields.io/badge/Shadcn/UI-0.5-000000?style=for-the-badge
+
+https://img.shields.io/badge/Lucide_Icons-0.300-000000?style=for-the-badge
+
+State Management:
+
+https://img.shields.io/badge/React_Context-18-61dafb?style=for-the-badge&logo=react
+
+https://img.shields.io/badge/Local_Storage-API-ff6b6b?style=for-the-badge
